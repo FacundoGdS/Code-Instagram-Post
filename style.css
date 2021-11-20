@@ -1,0 +1,103 @@
+/* * {
+    border: 1px dashed red;
+    min-height: 10px;
+} */
+
+body{
+    background: rgb(253,255,241);
+    background: linear-gradient(90deg, rgba(253,255,241,1) 0%, rgba(190,132,61,0.38699229691876746) 38%, rgba(0,212,255,0.4234068627450981) 100%);
+}
+.post{
+    width: 465px;
+    height: 600px;
+    background: white;
+    margin: auto;
+    margin-top: 10%;
+}
+
+.post-header{
+    height: 55px;
+    display: inline;
+}
+
+#bit{
+    margin-left: 5px;
+}
+
+p{
+    font-family: 'Lato', sans-serif;
+}
+
+.post-photo{
+    height: 300px;
+    background-image: url("https://www.hola.com/imagenes/viajes/20191008151110/carretera-bonita-toscana/0-730-342/ruta-chianti-italia-t.jpg?filter=w600");
+}
+
+.post-body{
+    height: 280px;
+}
+
+.body-top{
+    height: 70px;
+    display: inline;
+}
+
+.body-bottom{
+    height: 200px;
+}
+
+.html5{
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+}
+
+.post-header:first-child{
+    display: flex;
+    align-items: center;
+}
+
+.puntos3{
+    margin-left: auto;
+    margin-right: 10px;
+    width: 30px;
+    height: 30px;
+}
+
+.post-header:nth-child(3){
+    display: flex;
+    justify-content: end;
+}
+
+.heart{
+    width: 40px;
+    height: 40px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.comment{
+    width: 43px;
+    height: 43px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.paperplane{
+    width: 40px;
+    height: 40px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.label{
+    width: 40px;
+    height: 40px;
+    margin-top: 10px;
+    margin-left: 52%;
+}
+
+.center{
+    width: 450px;
+    margin: auto;
+}
